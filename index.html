@@ -49,7 +49,7 @@
         </nav>
 
         <!-- slider  -->
-        <section>
+        <section class="container">
           <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -58,7 +58,7 @@
                       <h2 class="text-center">Get Started Digital Learning</h2>
                       <p>It is a long established fact that a reader will be distracted by the readable
                        content of a page when looking at its layout.</p>
-                      <div class="btn btn-primary mt-3">Get Started</div>
+                        <div class="btn btn-primary mt-3">Get Started</div>
                     </div>
                     
                   </div>
@@ -199,17 +199,34 @@
         </div>
       </section>
 
-      <!-- ready to join  -->
+      <!-- your opinion  -->
       <section class="mt-5 mb-5">
-        <div class="modal" id="my-modal" tabindex="-1">
+        <div class="container bg-primary mt-5 rounded">
+          <div class="row row-cols-2">
+            <div>
+              <h2 class="text-center">Your Opinion</h2>
+            <p class="text-center">It is a long established fact that a reader will be distracted by the
+              readable content of a page when looking at its layout.</p>
+            </div>
+            <div class=" mt-5">
+              <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Comment
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- modal pop  -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Comment</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                <p>Modal body text goes here.</p>
+                <form action="">
+                  <input class="form-control" type="text" value="Readonly input here..." aria-label="readonly input example" readonly>
+                </form>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -218,19 +235,7 @@
             </div>
           </div>
         </div>
-        
-        <div class="container bg-primary mt-5 rounded">
-          <div class="row row-cols-2">
-            <div>
-              <h2 class="text-center">Ready to join?</h2>
-            <p class="text-center">It is a long established fact that a reader will be distracted by the
-              readable content of a page when looking at its layout.</p>
-            </div>
-            <div>
-              <div class="d-grid gap-2 col-6 mx-auto"><a class="bg-danger" href="#my-modal" data-toggle="modal" data-target="#my-modal"> Register</a></div>
-            </div>
-          </div>
-        </div>
+
       </section>
 
       <!-- asked questions  -->

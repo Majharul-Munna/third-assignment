@@ -9,7 +9,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   </head>
   <body>
-    <header>
+    <header class="container">
+      <!-- navigation  -->
         <nav class=" container navbar navbar-expand-lg bg-light">
             <div class="container-fluid">
               <a class="navbar-brand fs-2" href="#">GET EDU</a>
@@ -47,40 +48,42 @@
             </div>
         </nav>
 
+        <!-- slider  -->
         <section>
           <div id="carouselExampleControls" class="container carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <div class="d-grid justify-content-center mt-5 ">
-                  <div class="">
-                    <h2 class="text-center">Get Started Digital Learning</h2>
-                  <p>It is a long established fact that a reader will be distracted by the readable
-                  content of a page when looking at its layout.</p>
-                  <div class="btn btn-primary mt-3">Get Started</div>
-                  </div>
-                  
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="d-grid justify-content-center mt-5">
-                  <div>
-                    <h2 class="text-center">Get Started Digital Learning</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-                    <div class="btn btn-primary mt-3">Get Started</div>
+                <div class="carousel-item active">
+                  <div class=" mt-5 ">
+                    <div class="d-flex align-items-center flex-column">
+                      <h2 class="text-center">Get Started Digital Learning</h2>
+                      <p>It is a long established fact that a reader will be distracted by the readable
+                       content of a page when looking at its layout.</p>
+                      <div class="btn btn-primary mt-3">Get Started</div>
+                    </div>
+                    
                   </div>
                 </div>
-              </div>
-              <div class="carousel-item ">
-                <div class="d-grid justify-content-center mt-5">
-                  <div>
-                    <h2 class="text-center">Get Started Digital Learning</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable
-                    content of a page when looking at its layout.</p>
-                    <div class="btn btn-primary mt-3">Get Started</div>
+                <div class="carousel-item ">
+                  <div class="mt-5">
+                    <div class="d-flex align-items-center flex-column">
+                      <h2 class="text-center">Get Started Digital Learning</h2>
+                      <p>It is a long established fact that a reader will be distracted by the readable
+                      content of a page when looking at its layout.</p>
+                      <div class="btn btn-primary mt-3">Get Started</div>
+                    </div>
                   </div>
                 </div>
-              </div>
+                <div class="carousel-item">
+                  <div class=" mt-5">
+                    <div class="d-flex align-items-center flex-column">
+                      <h2 class="text-center">Get Started Digital Learning</h2>
+                      <p>It is a long established fact that a reader will be distracted by the readable
+                      content of a page when looking at its layout.</p>
+                      <div class="btn btn-primary mt-3">Get Started</div>
+                    </div>
+                  </div>
+                </div>
+              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -94,201 +97,210 @@
         </section>
     </header>
 
-    <main>
-      <div class="container mt-5">
+    <main class="container">
+
+      <!-- courses  -->
+      <section class="container mt-5">
         <div class="container d-grid justify-content-center">
           <h2 class="text-center">Discover Our Popular Courses</h2>
           <p>It is a long established fact that a reader will be distracted by the readable
           content of a page when looking at its layout.</p>
         </div>
-        <div class="container row row-cols-1 row-cols-md-1 row-cols-sm-1 mt-5">
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Javascript Basic to advanced</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+        <div class="container text-center mt-5">
+          <div class="container  row row-cols-1 row-cols-lg-2 row-cols-md-1 row-cols-sm-1  mt-5">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-2.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript Basic to advanced</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Fullstack Web Development</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-3.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Fullstack Web Development</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Digital Marketing</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-4.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Photography Basic Rules</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-5.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Photography Basic Rules</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Motion Graphics</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-6.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Motion Graphics</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Fundamental Of UI/UX Design</h5>
-                  <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
-                  <h5 class="card-text">Price: 20$</h5>
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="images/course/course-1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                    <p class="card-text">This is a important course of aur many courses. We give our full support to our students, and help them to learn.</p>
+                    <h5 class="card-text">Price: 20$</h5>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-
-<section class="mt-5 mb-5">
-  <div class="modal" id="my-modal" tabindex="-1">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="d-grid gap-2 col-6 mx-auto mt-3  pb-5">
+          <div class="btn btn-info ">See More Courses</div>
         </div>
-        <div class="modal-body">
-          <p>Modal body text goes here.</p>
+      </section>
+
+      <!-- ready to join  -->
+      <section class="mt-5 mb-5">
+        <div class="modal" id="my-modal" tabindex="-1">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <p>Modal body text goes here.</p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+        
+        <div class="container bg-primary mt-5 rounded">
+          <div class="row row-cols-2">
+            <div>
+              <h2 class="text-center">Ready to join?</h2>
+            <p class="text-center">It is a long established fact that a reader will be distracted by the
+              readable content of a page when looking at its layout.</p>
+            </div>
+            <div>
+              <div class="d-grid gap-2 col-6 mx-auto"><a class="bg-danger" href="#my-modal" data-toggle="modal" data-target="#my-modal"> Register</a></div>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="container bg-primary mt-5 rounded">
-    <div class="row row-cols-2">
-      <div>
-        <h2 class="text-center">Ready to join?</h2>
-      <p class="text-center">It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout.</p>
-      </div>
-      <div>
-        <div class=""><a class="bg-danger" href="#my-modal" data-toggle="modal" data-target="#my-modal"> Register</a></div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
+      <!-- asked questions  -->
+      <section class="container mt-5">
+        <div class="container">
+          <h2 class="text-center">Frequently Asked Questions</h2>
+          <p class="text-center">It is a long established fact that a reader will be distracted by the readable
+            content of a page when looking at its layout.</p>
+        </div class=" mt-5 mb-5">
+        <div class=" container accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is the difference between grid and flex?
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for one.This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                What is the difference between bootstrap and tailwind?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What is css box model?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                What is semantic tag?
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-<section class="container mt-5">
-  <div class="container">
-    <h2 class="text-center">Frequently Asked Questions</h2>
-    <p class="text-center">It is a long established fact that a reader will be distracted by the readable
-      content of a page when looking at its layout.</p>
-  </div class=" mt-5 mb-5">
-  <div class=" container accordion accordion-flush" id="accordionFlushExample">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingOne">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-          What is the difference between grid and flex?
-        </button>
-      </h2>
-      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Grid is made for two-dimensional layout while Flexbox is for one.This means Flexbox can work on either row or columns at a time, but Grids can work on both. Flexbox, gives you more flexibility while working on either element (row or column). HTML markup and CSS will be easy to manage in this type of scenario.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingTwo">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-          What is the difference between bootstrap and tailwind?
-        </button>
-      </h2>
-      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">Bootstrap comes with a set of pre-styled responsive, mobile-first components that possess a definite UI kit. Tailwind CSS uses a set of utility classes to create a neat UI with more flexibility and uniqueness. Sites created using Bootstrap follow the generic pattern that makes them look identical.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingThree">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-          What is css box model?
-        </button>
-      </h2>
-      <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</div>
-      </div>
-    </div>
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="flush-headingFour">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-          What is semantic tag?
-        </button>
-      </h2>
-      <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
-        <div class="accordion-body">The HTML semantics refers to the tags that provide meaning to an HTML page rather than just presentation. It makes HTML more comprehensible by better defining the different sections and layout of web pages.</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="container mt-5 mb-5">
-  <h2 class="text-center">Trusted by over 800+ companies</h2>
-  <div class="d-flex justify-content-center mt-5 mb-5">
-    <img class="ms-5" src="images/company/company-1.png" alt="">
-    <img class="ms-5" src="images/company/company-2.png" alt="">
-    <img class="ms-5" src="images/company/company-3.png" alt="">
-    <img class="ms-5" src="images/company/company-4.png" alt="">
-    <img class="ms-5" src="images/company/company-5.png" alt="">
-    <img class="ms-5" src="images/company/company-6.png" alt="">
-  </div>
-</section>
+      <!-- companies  -->
+      <section class="container mt-5 mb-5">
+        <h2 class="text-center">Trusted by over 800+ companies</h2>
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <img class="ms-5" src="images/company/company-1.png" alt="">
+          <img class="ms-5" src="images/company/company-2.png" alt="">
+          <img class="ms-5" src="images/company/company-3.png" alt="">
+          <img class="ms-5" src="images/company/company-4.png" alt="">
+          <img class="ms-5" src="images/company/company-5.png" alt="">
+          <img class="ms-5" src="images/company/company-6.png" alt="">
+        </div>
+      </section>
 
     </main>
 
-    <footer class="mt-5 mb-5">
+    <!-- footer  -->
+    <footer class="container mt-5 mb-5">
       <div class="contaiber bg-light">
         <h2 class="text-center">Get Edu</h2>
         <p class="text-center">Office 41, Zawaya Buildin, Ghala Muscat, </p>
